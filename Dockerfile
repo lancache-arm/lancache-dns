@@ -1,4 +1,4 @@
-FROM lancachenet/ubuntu:latest
+FROM rossmaclean/ubuntu-arm:latest
 MAINTAINER LanCache.Net Team <team@lancache.net>
 
 ENV STEAMCACHE_DNS_VERSION=1 ENABLE_DNSSEC_VALIDATION=false LANCACHE_DNSDOMAIN=cache.lancache.net CACHE_DOMAINS_REPO=https://github.com/uklans/cache-domains.git CACHE_DOMAINS_BRANCH=master UPSTREAM_DNS=8.8.8.8
